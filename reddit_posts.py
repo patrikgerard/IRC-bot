@@ -8,7 +8,7 @@ from random import randrange
 
 USERNAME = 'pnutzh4x0r'
 base_url = 'https://www.reddit.com/'
-data = {'grant_type': 'password', 'username': 'patggggggg',  'password': '3tuAq4ULYYRQoo'}
+data = {'grant_type': 'password', 'username': YOUR-USERNAME,  'password': YOUR-PASSWORD}
 auth = requests.auth.HTTPBasicAuth('QjUisJgCq1Z3TA', 'WXjMHSiyKPd652LqoEbBwctVeb2SbA')
 comments_req = 50
 
