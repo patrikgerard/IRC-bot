@@ -6,7 +6,7 @@ import requests
 import pprint
 from random import randrange
 
-USERNAME = 'pnutzh4x0r'
+USERNAME = USERNAME-TO-SEARCH-FOR
 base_url = 'https://www.reddit.com/'
 data = {'grant_type': 'password', 'username': YOUR-USERNAME,  'password': YOUR-PASSWORD}
 auth = requests.auth.HTTPBasicAuth('QjUisJgCq1Z3TA', 'WXjMHSiyKPd652LqoEbBwctVeb2SbA')
