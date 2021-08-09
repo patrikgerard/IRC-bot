@@ -9,7 +9,7 @@ from random import randrange
 USERNAME = USERNAME-TO-SEARCH-FOR
 base_url = 'https://www.reddit.com/'
 data = {'grant_type': 'password', 'username': YOUR-USERNAME,  'password': YOUR-PASSWORD}
-auth = requests.auth.HTTPBasicAuth('QjUisJgCq1Z3TA', 'WXjMHSiyKPd652LqoEbBwctVeb2SbA')
+auth = requests.auth.HTTPBasicAuth('private', 'private')
 comments_req = 50
 
 def get_token():
